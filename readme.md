@@ -43,8 +43,9 @@ import LaunchAtLogin
 struct SettingsScreen: View {
 	var body: some View {
 		LaunchAtLogin.Toggle("Launch at login 🦄")
-
+		
 		// Or
+		
 		LaunchAtLogin.Toggle {
 			Text("Launch at login 🦄")
 		}
