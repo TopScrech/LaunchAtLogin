@@ -1,4 +1,4 @@
-// swift-tools-version:5.10
+// swift-tools-version:6.2.1
 import PackageDescription
 
 let package = Package(
@@ -16,8 +16,6 @@ let package = Package(
 		)
 	],
 	targets: [
-		.target(
-			name: "LaunchAtLogin"
-		)
+		.target(name: "LaunchAtLogin")
 	]
 )

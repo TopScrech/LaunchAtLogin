@@ -3,6 +3,7 @@ import SwiftUI
 import ServiceManagement
 import os.log
 
+@MainActor
 public enum LaunchAtLogin {
 	private static let logger = Logger(subsystem: "com.sindresorhus.LaunchAtLogin", category: "main")
 	fileprivate static let observable = Observable()
@@ -45,6 +46,7 @@ public enum LaunchAtLogin {
 }
 
 extension LaunchAtLogin {
+	@MainActor
 	final class Observable: ObservableObject {
 		var isEnabled: Bool {
 			get {
