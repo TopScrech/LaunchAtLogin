@@ -69,7 +69,8 @@ print(LaunchAtLogin.isEnabled)
 
 ## Note
 
-The [Mac App Store guidelines](https://developer.apple.com/app-store/review/guidelines) require “launch at login” functionality to be enabled in response to a user action. Your app will be rejected if you set the state to true by default
+> [!WARNING]
+> The [Mac App Store guidelines](https://developer.apple.com/app-store/review/guidelines) require “launch at login” functionality to be enabled in response to a user action. Your app will be rejected if you set the state to true by default
 
 ## FAQ
 
