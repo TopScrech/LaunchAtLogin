@@ -5,7 +5,7 @@ import OSLog
 
 @MainActor
 public enum LaunchAtLogin {
-	private static let logger = Logger(subsystem: "com.sindresorhus.LaunchAtLogin", category: "main")
+	private static let logger = Logger(subsystem: "dev.topscrech.LaunchAtLogin", category: "main")
 	fileprivate static let observable = Observable()
 	
 	/**
