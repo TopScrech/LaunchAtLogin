@@ -1,7 +1,7 @@
 #if os(macOS) || targetEnvironment(macCatalyst)
 import SwiftUI
 import ServiceManagement
-import os.log
+import OSLog
 
 @MainActor
 public enum LaunchAtLogin {
