@@ -2,11 +2,12 @@
 
 > Add “Launch at Login” functionality to your macOS app in seconds
 
-This package is meant for apps targeting macOS 13 or later. If you need backwards-compatibility, check out the old [`LaunchAtLogin` package](https://github.com/sindresorhus/LaunchAtLogin)
+> [!WARNING]
+> The [Mac App Store guidelines](https://developer.apple.com/app-store/review/guidelines) require “launch at login” functionality to be enabled in response to a user action. Your app will be rejected if you set the state to true by default
 
 ## Supported platforms
-
-macOS 13+
+- macOS 13+
+- For legacy versions check out the old [`LaunchAtLogin` package](https://github.com/sindresorhus/LaunchAtLogin)
 
 ## Install
 
@@ -66,11 +67,6 @@ LaunchAtLogin.isEnabled = true
 print(LaunchAtLogin.isEnabled)
 //=> true
 ```
-
-## Note
-
-> [!WARNING]
-> The [Mac App Store guidelines](https://developer.apple.com/app-store/review/guidelines) require “launch at login” functionality to be enabled in response to a user action. Your app will be rejected if you set the state to true by default
 
 ## FAQ
 
