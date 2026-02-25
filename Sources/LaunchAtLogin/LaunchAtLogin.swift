@@ -6,7 +6,7 @@ import OSLog
 @MainActor
 public enum LaunchAtLogin {
 	private static let logger = Logger(subsystem: "dev.topscrech.LaunchAtLogin", category: "main")
-	fileprivate static let observable = Observable()
+	private static let observable = Observable()
 	
 	/**
 	 Toggle “launch at login” for your app or check whether it's enabled
