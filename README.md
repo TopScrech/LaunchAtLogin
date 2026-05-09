@@ -1,21 +1,24 @@
 # LaunchAtLogin
 
-> Add “Launch at Login” functionality to your macOS app in seconds
+Add “Launch at Login” functionality to your macOS app in seconds
+
+<img width="376" height="121" alt="Screenshot 2026-05-10 at 01 28 02" src="https://github.com/user-attachments/assets/015dde5d-d7bc-43af-9bbf-77637cf7a4c8" />
+<br>
 
 > [!WARNING]
-> The [Mac App Store guidelines](https://developer.apple.com/app-store/review/guidelines) require “launch at login” functionality to be enabled in response to a user action. Your app will be rejected if you set the state to true by default
+> The [Mac App Store guidelines](https://developer.apple.com/app-store/review/guidelines) require “launch at login” functionality to be enabled in response to a user action. Your app will be rejected if you enable this by default
 
 ## Supported platforms
 - macOS 13+
-- For legacy versions check out the old [`LaunchAtLogin` package](https://github.com/sindresorhus/LaunchAtLogin)
+- For macOS 10.13+ check out [sindresorhus/LaunchAtLogin](https://github.com/sindresorhus/LaunchAtLogin)
 
 ## Install
 
-Add `https://github.com/TopScrech/LaunchAtLogin` in the [“Swift Package Manager” tab in Xcode](https://developer.apple.com/documentation/xcode/adding_package_dependencies_to_your_app).
+Add `https://github.com/TopScrech/LaunchAtLogin` in the [“Swift Package Manager” tab in Xcode](https://developer.apple.com/documentation/xcode/adding_package_dependencies_to_your_app)
 
 ## Usage
 
-Put the toggle in your `Settings` scene. That's it.
+Put the toggle in your `Settings` scene. That's it
 
 ```swift
 import SwiftUI
