@@ -1,4 +1,5 @@
-// swift-tools-version:6.2.1
+// swift-tools-version:6.3.2
+
 import PackageDescription
 
 let package = Package(
@@ -8,12 +9,7 @@ let package = Package(
 		.macCatalyst(.v16)
 	],
 	products: [
-		.library(
-			name: "LaunchAtLogin",
-			targets: [
-				"LaunchAtLogin"
-			]
-		)
+		.library(name: "LaunchAtLogin", targets: ["LaunchAtLogin"])
 	],
 	targets: [
 		.target(name: "LaunchAtLogin")
